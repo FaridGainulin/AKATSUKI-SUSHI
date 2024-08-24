@@ -1,0 +1,48 @@
+section.invest-section
+  .wrapper
+    .invest-section__container
+      img.invest-section__img-1(src="images/invest-img-1.png" loading="lazy" width="320" height="214" alt="image")
+      img.invest-section__img-2(src="images/invest-img-2.png" loading="lazy" width="320" height="214" alt="image")
+      h2.invest-section__title.font-w-a-regular.font-s-50
+        | Минимальные 
+        br.no-br
+        | вложения для старта 
+        br.no-br
+        | — 2,46 млн рублей
+      .invest-section__sub-title.font-w-i-regular.font-s-18
+        | Выберите размер вашего города и узнайте величину 
+        br.no-br
+        | паушального взноса и размер инвестиций в 1 клик
+      .swiper-invest
+        .invest-section__cards.swiper-wrapper
+          .invest-section__card.swiper-slide
+            .invest-section__card-num.font-w-bold.font-s-26 1
+            .invest-section__card-header
+              .font-w-extra-bold.font-s-22 до 500 000 жителей
+            .invest-section__card-body
+              img.invest-section__card-img(src="images/invest-card-img-1.jpg" loading="lazy" width="640" height="460" alt="image")
+              form.invest-section__form(data-feedback-form)
+                input.input.invest-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+                input.input.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+                button.btn.invest-item-btn(type="submit") Узнать
+          .invest-section__card.swiper-slide
+            .invest-section__card-num.font-w-bold.font-s-26 2
+            .invest-section__card-header
+              .font-w-extra-bold.font-s-22 от 500 000 жителей
+            .invest-section__card-body
+              img.invest-section__card-img(src="images/invest-card-img-2.jpg" loading="lazy" width="640" height="460" alt="image")
+              form.invest-section__form(data-feedback-form)
+                input.input.invest-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+                input.input.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+                button.btn.invest-item-btn(type="submit") Узнать
+          .invest-section__card.swiper-slide
+            .invest-section__card-num.font-w-bold.font-s-26 3
+            .invest-section__card-header
+              .font-w-extra-bold.font-s-22 от 1 000 000 жителей
+            .invest-section__card-body
+              img.invest-section__card-img(src="images/invest-card-img-3.jpg" loading="lazy" width="640" height="460" alt="image")
+              form.invest-section__form(data-feedback-form)
+                input.input.invest-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+                input.input.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+                button.btn.invest-item-btn(type="submit") Узнать
+        .invest-pagination.swiper-progress-invest

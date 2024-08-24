@@ -1,0 +1,20 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      h2.start-section__title.font-w-a-regular.font-s-32.text-center
+        | Сделайте первый шаг, 
+        br.no-br
+        | узнайте лучшие места 
+        br.no-br
+        | для открытия AKATSUKI SUSHI
+      .start-section__sub-title.font-w-i-regular.font-s-18.text-center
+        | Просто укажите название вашего города 
+        br.no-br
+        | и получите список удачных локаций
+      form.start-section__form(data-city-form)
+        .input.input--secondary.js-input-city.start-item
+          input.input.input--secondary.start-item.input-city-position(type="text" name="city" autocomplete="off" placeholder="Название города")
+          .input__progress.js-input-city-progress
+            span.js-input-city-percent 0%
+        button.btn.btn--secondary.start-item(type="submit") Получить список локаций
+

@@ -1,0 +1,38 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      img.main-section__cloud-icon(src="images/cloud.svg" loading="lazy" width="1177" height="393" alt="icon")
+      .main-section__box
+        include ../components/header.pug
+        h1.main-section__title.font-w-a-regular.font-s-50.text-up
+          | Откройте свою 
+          br.no-br
+          | доставку блюд 
+          br.no-br
+          | японской кухни
+        .main-section__sub-title
+          img.main-section__sub-title-icon(src="images/main-section-sub-title-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+          .font-s-22
+            | Начните зарабатывать от 5,94 млн 
+            br.no-br
+            | рублей в год на самых популярных 
+            br.no-br
+            | в России блюдах
+        .main-section__text.font-w-semi-bold.font-s-18
+          | Получите подробный план открытия
+        form.main-section__form(data-feedback-form)
+          input.input.main-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.main-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn.main-item-btn(type="submit") Получить
+      img.main-section__img(src="images/main-section-img.jpg" loading="lazy" width="1760" height="2000" alt="image")
+
+  .main-section__bottom
+    .swiper-main
+      .main-section__bottom-wrapper.swiper-wrapper
+        .main-section__bottom-item.font-s-16.swiper-slide Быстрый старт
+        .main-section__bottom-item.bottom-item-2.swiper-slide
+          img.main-section__bottom-icon(src="images/main-section-bottom-icon.png" loading="lazy" width="1" height="30" alt="icon")
+          .font-s-16 Высокая рентабельность
+          img.main-section__bottom-icon(src="images/main-section-bottom-icon.png" loading="lazy" width="1" height="30" alt="icon")
+        .main-section__bottom-item.font-s-16.swiper-slide Стабильная прибыль
+      .main-pagination.swiper-progress-main
